@@ -1,0 +1,61 @@
+*{
+    font-family: [Inter](https://fonts.google.com/specimen/Inter);
+}
+.main{
+    width: 270px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: 10px;
+    border-radius: 8px;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    border-radius: 100%;
+    width: 100px;
+}
+input{
+    width: 90%;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 4px;
+}
+p{
+    Font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+h3{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 4px;
+}
+h5{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-top: 0px;
+}
+input:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+@media screen and (max-width:350px){
+    .main{
+        width: 80%;
+    }
+    
+}
